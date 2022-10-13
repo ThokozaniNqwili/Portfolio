@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.responsive {
+    margin: 0%;
+    max-width: 100%;
+    height: auto;
+    
+  } 
+#landing {
+
+  background-image: url('./images/homeImage.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /*position: relative;*/
+}
+.topnav {
+  float: right;
+  /* position: absolute; */
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.topnav a{
+  float:right;
+  color:brown;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+/* changing colour of link on hover*/
+.topnav a:hover {
+  background-color:bisque;
+  color:brown;
+}
+/*add color to the active link*/
+.topnav a.active {
+  background-color:bisque;
+  color: brown;
+}
