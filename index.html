@@ -4,12 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="./styles/style.css" />
-
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/8cec8e7539.js" crossorigin="anonymous"></script>
   </head>
   <body>
+<div id="social">
+    <a href="#"><i class="fab fa-twitter"></i> </a>         
+    <a href='#'><i class="fab fa-linkedin-in"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i> </a> 
+    
+</div>
+
     <section class="landing" id="landing">
+      <img src="./images/homeImage.jpg" alt="laptop" class="responsive"/>
       <div class="centered">
         <h3>An aspiring <span>Software Developer</span></h3>
       </div>
@@ -18,27 +27,31 @@
         <h1>Welcome, <br />I am Thokozani Nqwili</h1>
       </div>
 
-      <!--Navigation bar-->
+       <button href="about.html" class="button">Find out More</button />
+        <div id="social">
+          <a href="#"><i class="fab fa-twitter"></i> </a>         
+          <a href='#'><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i> </a> 
+          
+      </div>
 
-      <div class="topnav">
-        <h2 class="logo">Portfolio</h2>
+       <div class="topnav">
 
-        <a class="active" href="#home">Home</a>
-        <a href="about.html">About Me</a>9
+        <a class="active" href="#landing">Home</a>
+        <a href="about.html">About Me</a>
         <a href="#project">Project</a>
         <a href="#testimonial">Testimonial</a>
         <a href="#contact">Contact</a>
-        <!--<img src="./images/homeImage.jpg" alt="laptop" class="responsive" />-->
       </div>
-      <button href="about.html" class="button">Find out More</button>
-    </section>
+     
+   </section>
 
     <section class="contact-box" id="contact">
       <h2 class="contact-head">Get in touch</h2>
-      <form action="https://formspree.io/f/xknezewb" method="POST"></form>
+      <form action="https://formspree.io/f/xknezewb" method="POST">
 
       <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name" /><br />
+      <input type="text" id="name" name="name" placeholder="Your name" /><br>
 
       <label for="name">Surname</label>
       <input
@@ -46,7 +59,7 @@
         id="surname"
         name="surname"
         placeholder="Your name"
-      /><br />
+      /><br>
 
       <label for="name">Email</label>
       <input
@@ -54,14 +67,18 @@
         id="surname"
         name="email"
         placeholder="Your email"
-      /><br />
+      />
+      <br>
 
       <label for="message">Message</label>
 
       <textarea id="message" name="message" placeholder="Your message">
       </textarea>
+    <br>
+    <br>
 
-      <button type="button" class="btn">Send Message</button><br />
+      <button type="button" class="btnSubmit">Send Message</button>
+    </form>
     </section>
   </body>
 </html>
